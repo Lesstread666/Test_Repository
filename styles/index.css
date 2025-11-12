@@ -2,8 +2,15 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
+    display: flex;
+    flex-direction: column;
+    height:100%;
     margin: 0;
+}
+
+main{
+    flex:1;
 }
 
 .header{
@@ -16,4 +23,15 @@ body {
     margin: 0;
     text-align: center;
     font-family: Ink free;
+}
+
+.main {
+    background-color: rgb(50, 191, 191);
+}
+
+.footer {
+    background-color: darkcyan;
+    font-family: Ink Free;
+    font-size: 1.5rem;
+    text-align: center;
 }
